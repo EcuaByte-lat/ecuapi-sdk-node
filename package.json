@@ -1,0 +1,17 @@
+{
+  "name": "@ecuapi/sdk",
+  "version": "0.0.1",
+  "description": "Official Node.js/TypeScript SDK for ECUAPI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "generate": "orval",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "orval": "^7.3.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0"
+  }
+}
